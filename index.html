@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dom Manipulation Hard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: red;
+    }
+
+    button {
+      padding: 10px;
+    }
+
+    .bg-red {
+      background-color: red;
+    }
+
+    .bg-white {
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+    <button  id="bts1" onclick="this.style.backgroundcolor = 'red'">
+      Turn it red!
+    </button>
+    <button  id="bts2" onclick="this.style.backgroundcolor = 'white'">
+      Turn it white!
+    </button>
+    <script src="main.js">
+     // Do Stuff Here
+     window.updateTheBackground = function() {
+//       $$( "#bts1" ).click(function() {
+//   $( "#bts1" ).click(updateTheBackground,"red");
+// });
+      
+    
+     }
+    
+    </script>
+</body>
+</html>
